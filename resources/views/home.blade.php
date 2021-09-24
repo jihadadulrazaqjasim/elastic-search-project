@@ -21,6 +21,7 @@
                         </div>
                         <form id="multi-file-upload-ajax" accept-charset="utf-8" enctype="multipart/form-data">
                             @csrf
+                            
                             <div class="modal-body">
                                 <input type="file" class="form-control" name="files[]" id="files" multiple>
                             </div>
