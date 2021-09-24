@@ -53,15 +53,17 @@
             <div class="card-body">
                 <div class="table-responsive">
                     <table class="table table-bordered" id="documentTable" width="100%" height="100%" cellspacing="0">
-                        @csrf
-                        <thead>
-                            <tr>
-                                <th>Document Name</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
+                        <form action="post">
+                            {{-- {{ method_field('PUT') }} --}}
+                            @csrf
+                            <thead>
+                                <tr>
+                                    <th>Document Name</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                     </form>
                         </tbody>
                     </table>
                 </div>
