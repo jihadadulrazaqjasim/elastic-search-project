@@ -167,7 +167,9 @@ class HomeController extends Controller
                     $output .= str_replace('+',' ',$index['index']);
 
                     $output .= "<td>";
-                    $output.= " <form action='POST'><a class='delete' href='#' style='color:red;text-decoration:underline'  index=".$index['index'].">Delete</a></form>";                    
+                    $output.= " <form action='POST'><a class='delete' href='#' style='color:red;text-decoration:underline'  index=".$index['index'].">Delete</a>";
+                    $output.= "</form>";
+                                                           
                     $output.="</td>";
                     $output.="</tr>";
                 }
