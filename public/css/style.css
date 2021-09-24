@@ -1,0 +1,58 @@
+
+p{
+    font-size: 12px;
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+} 
+td{
+    font-size: 14px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* background-color: rgb(241, 246, 248); */
+}
+
+button, .btn{
+    padding: 6px;
+}
+
+.card-body{
+    background-color: #f7f7d7;
+}
+
+.card-header{
+    background-color: rgb(255, 251, 218);
+}
+
+h1, h2, h3,h4,h5,h6{
+    color: #1D67D6;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+thead, tfoot{
+    background-color: #6cb2e0;
+}
+
+tbody{
+    background-color: rgb(250, 255, 182);
+}
+
+button.multiselect {
+    background-color: rgb(250, 255, 182);
+    border: 2px solid #877fff;
+    box-shadow: 0 3px 0 rgb(124, 147, 209);
+  }
+  
+
+/* p{
+    color: #1D67D6;
+} */
