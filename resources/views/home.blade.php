@@ -72,6 +72,5 @@
     </div>
 @endsection
 @section('javascripts')
-    <script src="{{ URL::to('vendor/datatables/dataTables.bootstrap4.min.js') }}"></script>
     <script src="{{ URL::to('js/addDocument.js') }}"></script>
 @endsection

@@ -5,10 +5,8 @@
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fa fa-search"></i>
-            {{-- <img src="{{URL::to('img/logo2c.jpg')}}" alt="Logo" height="60" width="60" style="border-radius: 10%;"> --}}
         </div>
         <div class="sidebar-brand-text mx-2">ElasticSearch</div>
-        {{-- <div class="sidebar-brand-text mx-3" style="color: #CF3733">MaxPost</div> --}}
     </a>
 
     <!-- Divider -->
