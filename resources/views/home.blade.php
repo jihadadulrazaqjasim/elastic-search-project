@@ -53,7 +53,7 @@
             <div class="card-body">
                 <div class="table-responsive">
                     <table class="table table-bordered" id="documentTable" width="100%" height="100%" cellspacing="0">
-                        <form action="post">
+                        <form action="PUT">
                             {{-- {{ method_field('PUT') }} --}}
                             @csrf
                             <thead>
